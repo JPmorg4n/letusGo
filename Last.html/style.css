@@ -1,0 +1,46 @@
+#ex1 {
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  border: 1px solid gray;
+  margin: 0;
+  padding-top: 10px;
+}
+
+#ex2 {
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+}
+#ex3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+#ex4 {
+  text-align: center;
+  font-size: 30px;
+}
+
+#ex5 {
+  text-align: center;
+}
+
+#ex6 {
+  text-align: center;
+}
+
+#ex7 {
+  text-align: center;
+}
+
+#wrap {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+@media (max-width: 1680px) {
+  #wrap {
+    grid-template-columns: auto;
+  }
+}
